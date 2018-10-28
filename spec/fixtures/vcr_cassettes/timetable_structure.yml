@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xporter.groupcall.com/api/v1/School/3281101/TimetableStructure
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Idaas ere5ZM/8505ZHDe0X3X/M8TAxvOyW6vW20QxQoN6QNKANTTjGTfNtBSyRQskCFZ+c2aTtktAhJPvn0jUFhYvGULwwZwOyj6D5rBRRXfL938Ld/f5323TroX71PPxemrHTGn3tUQb3T17/MQvQE75QvZq5CZc819eU2P9FlxQcSFVHoiYN/5CmWIICol0sdM71eUSNsfLA0j8P2HsdZM1z02N7x2cGWWft3wQmD/5wJj8/K2ha7Ye4VHEoX8pCR7cM9ASYtNFyhxtpsQaZR/Iq/YTIxCYQtAPI5HXv1u3q6bMNdR/mGZpobZkESMqTF4zpjVna5IX2VjLdxZDblTeVd32LRLUQPvJp9ZKogwiSv6/7tXfFF61+2cf49v5eK2VTtmI656Rhy+SwIUZuHOCxsF4cF3V4Yyxkbh2LICBMzpIu9HwgC7rv799jT7/4db2ToeOsh7nlLitg+98f/hGiWJBv/2qzoat3E/v6Wd2b4tKfFBYe9w1dtw+8bCHUJ+EhFaWX0i+/Z0IsoHc/em8gDrXQIBGxcuSXYzdAJJv+GXb2aQ8Ep1ZqO88BNvbP+25FdjTrG9acxY4ZxeKCdZEaphOXqAFfYtQOBHczEEl62MV7nDj2PSa9wof23hh9ApiUhLkuVq5A/CIQOboZl5gug==
+      Content-Type:
+      - application/json
+      User-Agent:
+      - TeamSatchel XoD Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '780'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Request-Context:
+      - appId=cid-v1:f307af71-b1af-4236-afd6-f49db97fd1fc
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Security-Policy:
+      - frame-ancestors 'self';  script-src 'self' 'unsafe-inline' *.google-analytics.com  az416426.vo.msecnd.net
+        ajax.aspnetcdn.com dc.services.visualstudio.com; style-src 'self' 'unsafe-inline'
+        ;
+      Date:
+      - Wed, 20 Jun 2018 14:05:52 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"TTDays":[{"Id":"19391","EventId":"19391","EventDescription":"Wednesday","StartDateTime":"2018-06-20T00:00:00","EndDateTime":"2018-06-20T23:59:59"},{"Id":"19392","EventId":"19392","EventDescription":"Thursday","StartDateTime":"2018-06-21T00:00:00","EndDateTime":"2018-06-21T23:59:59"},{"Id":"19393","EventId":"19393","EventDescription":"Friday","StartDateTime":"2018-06-22T00:00:00","EndDateTime":"2018-06-22T23:59:59"},{"Id":"19394","EventId":"19394","EventDescription":"Monday","StartDateTime":"2018-06-25T00:00:00","EndDateTime":"2018-06-25T23:59:59"},{"Id":"19395","EventId":"19395","EventDescription":"Tuesday","StartDateTime":"2018-06-26T00:00:00","EndDateTime":"2018-06-26T23:59:59"},{"Id":"19396","EventId":"19396","EventDescription":"Wednesday","StartDateTime":"2018-06-27T00:00:00","EndDateTime":"2018-06-27T23:59:59"},{"Id":"19397","EventId":"19397","EventDescription":"Thursday","StartDateTime":"2018-06-28T00:00:00","EndDateTime":"2018-06-28T23:59:59"},{"Id":"19398","EventId":"19398","EventDescription":"Friday","StartDateTime":"2018-06-29T00:00:00","EndDateTime":"2018-06-29T23:59:59"},{"Id":"19399","EventId":"19399","EventDescription":"Monday","StartDateTime":"2018-07-02T00:00:00","EndDateTime":"2018-07-02T23:59:59"}],"TTSessions":[{"Id":"18484","DayId":"19391","EventId":"60","EventDescription":"Wednesday
+        AM","Session":"AM","StartDateTime":"2018-06-20T09:00:00","EndDateTime":"2018-06-20T12:30:00"},{"Id":"18485","DayId":"19391","EventId":"61","EventDescription":"Wednesday
+        PM","Session":"PM","StartDateTime":"2018-06-20T13:00:00","EndDateTime":"2018-06-20T15:30:00"},{"Id":"18486","DayId":"19392","EventId":"62","EventDescription":"Thursday
+        AM","Session":"AM","StartDateTime":"2018-06-21T09:00:00","EndDateTime":"2018-06-21T12:30:00"},{"Id":"18487","DayId":"19392","EventId":"63","EventDescription":"Thursday
+        PM","Session":"PM","StartDateTime":"2018-06-21T13:00:00","EndDateTime":"2018-06-21T15:30:00"},{"Id":"18488","DayId":"19393","EventId":"64","EventDescription":"Friday
+        AM","Session":"AM","StartDateTime":"2018-06-22T09:00:00","EndDateTime":"2018-06-22T12:30:00"},{"Id":"18489","DayId":"19393","EventId":"65","EventDescription":"Friday
+        PM","Session":"PM","StartDateTime":"2018-06-22T13:00:00","EndDateTime":"2018-06-22T15:30:00"},{"Id":"18494","DayId":"19394","EventId":"56","EventDescription":"Monday
+        AM","Session":"AM","StartDateTime":"2018-06-25T09:00:00","EndDateTime":"2018-06-25T12:30:00"},{"Id":"18495","DayId":"19394","EventId":"57","EventDescription":"Monday
+        PM","Session":"PM","StartDateTime":"2018-06-25T13:00:00","EndDateTime":"2018-06-25T15:30:00"},{"Id":"18496","DayId":"19395","EventId":"58","EventDescription":"Tuesday
+        AM","Session":"AM","StartDateTime":"2018-06-26T09:00:00","EndDateTime":"2018-06-26T12:30:00"},{"Id":"18497","DayId":"19395","EventId":"59","EventDescription":"Tuesday
+        PM","Session":"PM","StartDateTime":"2018-06-26T13:00:00","EndDateTime":"2018-06-26T15:30:00"},{"Id":"18498","DayId":"19396","EventId":"60","EventDescription":"Wednesday
+        AM","Session":"AM","StartDateTime":"2018-06-27T09:00:00","EndDateTime":"2018-06-27T12:30:00"},{"Id":"18499","DayId":"19396","EventId":"61","EventDescription":"Wednesday
+        PM","Session":"PM","StartDateTime":"2018-06-27T13:00:00","EndDateTime":"2018-06-27T15:30:00"},{"Id":"18500","DayId":"19397","EventId":"62","EventDescription":"Thursday
+        AM","Session":"AM","StartDateTime":"2018-06-28T09:00:00","EndDateTime":"2018-06-28T12:30:00"},{"Id":"18501","DayId":"19397","EventId":"63","EventDescription":"Thursday
+        PM","Session":"PM","StartDateTime":"2018-06-28T13:00:00","EndDateTime":"2018-06-28T15:30:00"},{"Id":"18502","DayId":"19398","EventId":"64","EventDescription":"Friday
+        AM","Session":"AM","StartDateTime":"2018-06-29T09:00:00","EndDateTime":"2018-06-29T12:30:00"},{"Id":"18503","DayId":"19398","EventId":"65","EventDescription":"Friday
+        PM","Session":"PM","StartDateTime":"2018-06-29T13:00:00","EndDateTime":"2018-06-29T15:30:00"},{"Id":"18508","DayId":"19399","EventId":"56","EventDescription":"Monday
+        AM","Session":"AM","StartDateTime":"2018-07-02T09:00:00","EndDateTime":"2018-07-02T12:30:00"},{"Id":"18509","DayId":"19399","EventId":"57","EventDescription":"Monday
+        PM","Session":"PM","StartDateTime":"2018-07-02T13:00:00","EndDateTime":"2018-07-02T15:30:00"}],"TTPeriods":[],"TTSubjects":[],"TTRooms":[{"Id":"1","Code":"I1","Name":"I1"},{"Id":"9","Code":"SH","Name":"School
+        Hall"},{"Id":"2","Code":"I2","Name":"I2"},{"Id":"3","Code":"I3","Name":"I3"},{"Id":"4","Code":"J1","Name":"J1"},{"Id":"10","Code":"RR","Name":"Resources
+        Room"},{"Id":"11","Code":"SL","Name":"School Library"},{"Id":"5","Code":"J2","Name":"J2"},{"Id":"6","Code":"J3","Name":"J3"},{"Id":"7","Code":"HO","Name":"Headteacher''s
+        Office"},{"Id":"8","Code":"SC","Name":"School Office"}],"meta":[{"Id":1,"MIS":"simsnet","Version":"4","DateTime":"2018-06-20T02:28:52.425"}]}'
+    http_version: 
+  recorded_at: Wed, 20 Jun 2018 14:05:53 GMT
+recorded_with: VCR 4.0.0

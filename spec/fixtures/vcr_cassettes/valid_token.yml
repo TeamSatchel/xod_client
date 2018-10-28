@@ -1,0 +1,62 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://login.groupcall.com/idaas/sts/STS/GetToken
+    body:
+      encoding: UTF-8
+      string: '{"relyingParty":"relying-party.com","thirdPartyId":"XporterOnDemand","estab":"3281101","password":"secret"}'
+    headers:
+      Content-Type:
+      - application/json
+      User-Agent:
+      - TeamSatchel XoD Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '936'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Vary:
+      - Accept-Encoding
+      Request-Context:
+      - appId=cid-v1:64d2cb57-8a72-4080-bc26-a88881f61e14
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Security-Policy:
+      - frame-ancestors 'self' *.groupcall.com;  script-src 'self' 'unsafe-inline'
+        'unsafe-eval' *.google-analytics.com *.gstatic.com *.googleapis.com az416426.vo.msecnd.net
+        *.bootstrapcdn.com cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline'
+        *.fontawesome.com *.gstatic.com  *.googleapis.com gcidaastesting.blob.core.windows.net
+        gcidaaslive.blob.core.windows.net *.bootstrapcdn.com cdnjs.cloudflare.com;
+      X-Frame-Options:
+      - SAMEORIGIN
+      Set-Cookie:
+      - ARRAffinity=337f499160a8a2bfcec8447362f99b7891a48897721f8b5d569d25aa63729330;Path=/;HttpOnly;Domain=login.groupcall.com
+      Date:
+      - Tue, 19 Jun 2018 18:55:25 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Message":null,"ExceptionMessage":null,"token":"ere5ZM/8505ZHDe0X3X/M8TAxvOyW6vW20QxQoN6QNKANTTjGTfNtBSyRQskCFZ+c2aTtktAhJPvn0jUFhYvGULwwZwOyj6D5rBRRXfL938Ld/f5323TroX71PPxemrHTGn3tUQb3T17/MQvQE75QvZq5CZc819eU2P9FlxQcSFVHoiYN/5CmWIICol0sdM71eUSNsfLA0j8P2HsdZM1z02N7x2cGWWft3wQmD/5wJj8/K2ha7Ye4VHEoX8pCR7cM9ASYtNFyhxtpsQaZR/Iq/YTIxCYQtAPI5HXv1u3q6bMNdR/mGZpobZkESMqTF4zpjVna5IX2VjLdxZDblTeVd32LRLUQPvJp9ZKogwiSv6/7tXfFF61+2cf49v5eK2VTtmI656Rhy+SwIUZuHOCxsF4cF3V4Yyxkbh2LICBMzpIu9HwgC7rv799jT7/4db2ToeOsh7nlLitg+98f/hGiWJBv/2qzoat3E/v6Wd2b4tKfFBYe9w1dtw+8bCHUJ+EhFaWX0i+/Z0IsoHc/em8gDrXQIBGxcuSXYzdAJJv+GXb2aQ8Ep1ZqO88BNvbP+25FdjTrG9acxY4ZxeKCdZEaphOXqAFfYtQOBHczEEl62MV7nDj2PSa9wof23hh9ApiUhLkuVq5A/CIQOboZl5gug==","expires":"2018-06-24T18:55:26.1852229Z"}'
+    http_version: 
+  recorded_at: Tue, 19 Jun 2018 18:55:26 GMT
+recorded_with: VCR 4.0.0

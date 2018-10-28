@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xporter.groupcall.com/api/v1/School/3281101/Staff/?pageSize=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Idaas ere5ZM/8505ZHDe0X3X/M8TAxvOyW6vW20QxQoN6QNKANTTjGTfNtBSyRQskCFZ+c2aTtktAhJPvn0jUFhYvGULwwZwOyj6D5rBRRXfL938Ld/f5323TroX71PPxemrHTGn3tUQb3T17/MQvQE75QvZq5CZc819eU2P9FlxQcSFVHoiYN/5CmWIICol0sdM71eUSNsfLA0j8P2HsdZM1z02N7x2cGWWft3wQmD/5wJj8/K2ha7Ye4VHEoX8pCR7cM9ASYtNFyhxtpsQaZR/Iq/YTIxCYQtAPI5HXv1u3q6bMNdR/mGZpobZkESMqTF4zpjVna5IX2VjLdxZDblTeVd32LRLUQPvJp9ZKogwiSv6/7tXfFF61+2cf49v5eK2VTtmI656Rhy+SwIUZuHOCxsF4cF3V4Yyxkbh2LICBMzpIu9HwgC7rv799jT7/4db2ToeOsh7nlLitg+98f/hGiWJBv/2qzoat3E/v6Wd2b4tKfFBYe9w1dtw+8bCHUJ+EhFaWX0i+/Z0IsoHc/em8gDrXQIBGxcuSXYzdAJJv+GXb2aQ8Ep1ZqO88BNvbP+25FdjTrG9acxY4ZxeKCdZEaphOXqAFfYtQOBHczEEl62MV7nDj2PSa9wof23hh9ApiUhLkuVq5A/CIQOboZl5gug==
+      Content-Type:
+      - application/json
+      User-Agent:
+      - TeamSatchel XoD Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '933'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Request-Context:
+      - appId=cid-v1:f307af71-b1af-4236-afd6-f49db97fd1fc
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Security-Policy:
+      - frame-ancestors 'self';  script-src 'self' 'unsafe-inline' *.google-analytics.com  az416426.vo.msecnd.net
+        ajax.aspnetcdn.com dc.services.visualstudio.com; style-src 'self' 'unsafe-inline'
+        ;
+      Date:
+      - Wed, 20 Jun 2018 15:43:27 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Staff":[{"Id":"2","XID":"xW9QS9S","IdaasId":"PWT-2","ExternalId":"61c8018c-361d-48f6-98f0-adef6fa9bffe","Title":"Mrs","Suffix":null,"StaffCode":"RL","StaffStatus":"Current","Forename":"Rebecca","Surname":"Lorrin","DisplayName":"Mrs
+        R Lorrin","WorkEmail":null,"IdaasEmail":null,"WorkPhone":null,"Gender":"F","MiddleName":null,"LegalForename":"Rebecca","LegalSurname":"Lorrin","DateOfBirth":"1956-10-16","NINumber":"YK529810B","TeacherNumber":"88/86710","EmploymentStart":"1988-04-01","EmploymentEnd":null,"Roles":"Administrator
+        / Clerk","HomeEmail":"Lorrin@example.com","HomePhone":"01632 837651","MobilePhone":null,"AddressBlock":"90
+        Windsor Road\nSwindon\nSN3 1LA\nUnited Kingdom","HouseNo":"90","HouseName":null,"Apartment":null,"Street":"Windsor
+        Road","District":null,"TownOrCity":"Swindon","County":null,"PostCode":"SN3
+        1LA","Country":"United Kingdom","IsTeacher":0,"IsSupport":1,"RegGroup":"N1
+        PM,AM","LastUpdated":"2017-12-14T01:29:18.57","RowHash":"75912201E2181EA290E147356E10171139494AFD"},{"Id":"3","XID":"xYPQS6L","IdaasId":"PWT-3","ExternalId":"071f97eb-2912-495d-946a-450188f35999","Title":"Mrs","Suffix":null,"StaffCode":null,"StaffStatus":"Current","Forename":"Valerie","Surname":"Cloves","DisplayName":"Mrs
+        V Cloves","WorkEmail":null,"IdaasEmail":null,"WorkPhone":null,"Gender":"F","MiddleName":null,"LegalForename":"Valerie","LegalSurname":"Cloves","DateOfBirth":"1959-07-12","NINumber":"YB943720A","TeacherNumber":null,"EmploymentStart":"2011-09-01","EmploymentEnd":null,"Roles":"Other
+        Catering Staff","HomeEmail":null,"HomePhone":"01632 4","MobilePhone":null,"AddressBlock":"103
+        Sultan Road\nEast Town\nEastshire\nSI1 2SR\nUnited Kingdom","HouseNo":"103","HouseName":null,"Apartment":null,"Street":"Sultan
+        Road","District":null,"TownOrCity":"East Town","County":"Eastshire","PostCode":"SI1
+        2SR","Country":"United Kingdom","IsTeacher":0,"IsSupport":1,"RegGroup":null,"LastUpdated":"2017-12-14T01:29:18.57","RowHash":"372775135B8F9533413A13FF9415891727749684"}],"meta":[{"Id":1,"MIS":"simsnet","Version":"4","DateTime":"2018-06-20T02:25:06.223"}],"__pagination__":[{"PageSize":2,"PageNumber":1,"PageCount":20,"RowCount":40,"NextPage":"?page=2&pageSize=2"}]}'
+    http_version: 
+  recorded_at: Wed, 20 Jun 2018 15:43:27 GMT
+recorded_with: VCR 4.0.0

@@ -1,0 +1,183 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://xporter.groupcall.com/api/v1/School/3281101/Students/?pageSize=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Idaas ere5ZM/8505ZHDe0X3X/M8TAxvOyW6vW20QxQoN6QNKANTTjGTfNtBSyRQskCFZ+c2aTtktAhJPvn0jUFhYvGULwwZwOyj6D5rBRRXfL938Ld/f5323TroX71PPxemrHTGn3tUQb3T17/MQvQE75QvZq5CZc819eU2P9FlxQcSFVHoiYN/5CmWIICol0sdM71eUSNsfLA0j8P2HsdZM1z02N7x2cGWWft3wQmD/5wJj8/K2ha7Ye4VHEoX8pCR7cM9ASYtNFyhxtpsQaZR/Iq/YTIxCYQtAPI5HXv1u3q6bMNdR/mGZpobZkESMqTF4zpjVna5IX2VjLdxZDblTeVd32LRLUQPvJp9ZKogwiSv6/7tXfFF61+2cf49v5eK2VTtmI656Rhy+SwIUZuHOCxsF4cF3V4Yyxkbh2LICBMzpIu9HwgC7rv799jT7/4db2ToeOsh7nlLitg+98f/hGiWJBv/2qzoat3E/v6Wd2b4tKfFBYe9w1dtw+8bCHUJ+EhFaWX0i+/Z0IsoHc/em8gDrXQIBGxcuSXYzdAJJv+GXb2aQ8Ep1ZqO88BNvbP+25FdjTrG9acxY4ZxeKCdZEaphOXqAFfYtQOBHczEEl62MV7nDj2PSa9wof23hh9ApiUhLkuVq5A/CIQOboZl5gug==
+      Content-Type:
+      - application/json
+      User-Agent:
+      - TeamSatchel XoD Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1288'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Request-Context:
+      - appId=cid-v1:f307af71-b1af-4236-afd6-f49db97fd1fc
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Security-Policy:
+      - frame-ancestors 'self';  script-src 'self' 'unsafe-inline' *.google-analytics.com  az416426.vo.msecnd.net
+        ajax.aspnetcdn.com dc.services.visualstudio.com; style-src 'self' 'unsafe-inline'
+        ;
+      Date:
+      - Wed, 20 Jun 2018 10:20:38 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Students":[{"Id":"3116","XID":"xUYWRO2","ExternalId":"05a289a1-d579-4285-b050-894f5e11e04a","IdaasId":"PL-3116","Forename":"Albus","Surname":"Dumbledore","DisplayName":"Albus
+        Dumbledore","AdmissionNo":"001275","Gender":"M","RegGroupId":"188","RegGroup":"4ES","YearGroupId":"28","YearGroup":"Year  4","HouseGroupId":null,"HouseGroup":null,"WorkEmail":null,"IdaasEmail":null,"DateofBirth":"2009-01-12","UniqueLearnerNumber":null,"MiddleName":null,"EnrolmentStatus":"C","Boarder":1,"LegalForename":"Albus","LegalSurname":"Dumbledore","EntryDate":"2012-09-01","LeavingDate":null,"Destination":null,"DestinationStartDate":null,"ReasonForLeaving":null,"SENProvision":"K","FSMEligible":0,"FsmEndDate":null,"UniformAllowance":0,"PupilPremium":0,"YSSA":null,"EAL":1,"FSMEver6":0,"Gifted":0,"ServiceChild":"0","ServiceChildSource":null,"InLeaCare":0,"LeaCareAuthority":null,"EverInCare":0,"IsYoungCarer":0,"AsylumStatus":null,"ReligionCode":"MU","Religion":"Muslim","EthnicityCode":"ABAN","Ethnicity":"Bangladeshi","EthnicitySource":"P","HomeLanguage":null,"HomeLanguageCode":null,"FirstLanguage":"English","FirstLanguageCode":"ENG","FirstLanguageSource":"S","EnglishProficiencyLevel":"Competent","NationalIdentity":"Other","Nationality":"United
+        Kingdom","ModeOfTravel":"Car Share (with child/children)","IsTraveller":0,"TravellerSource":null,"ParentalSalutation":"Mr
+        and Mrs Dumbledore","AddressBlock":"3 Penrith Grove\nPeterborough\nPE4 7FQ\nUnited
+        Kingdom","HouseNo":"3","HouseName":null,"Apartment":null,"Street":"Penrith
+        Grove","District":null,"TownOrCity":"Peterborough","County":null,"PostCode":"PE4
+        7FQ","Country":"United Kingdom","StudentStatus":"OnRoll","QuickNote":null,"LastUpdated":"2018-06-12T02:07:21.03","RowHash":"D33933841636DA3C985B7F24263572B445ECE329"},{"Id":"3217","XID":"xHIVOJ1","ExternalId":"f892afff-295d-44eb-94b8-7466483fc965","IdaasId":"PL-3217","Forename":"Harry","Surname":"Potter","DisplayName":"Harry
+        Potter","AdmissionNo":"001336","Gender":"M","RegGroupId":"180","RegGroup":"3TO","YearGroupId":"29","YearGroup":"Year  3","HouseGroupId":null,"HouseGroup":null,"WorkEmail":null,"IdaasEmail":null,"DateofBirth":"2009-11-20","UniqueLearnerNumber":null,"MiddleName":null,"EnrolmentStatus":"C","Boarder":1,"LegalForename":"Harry","LegalSurname":"Potter","EntryDate":"2013-09-01","LeavingDate":null,"Destination":null,"DestinationStartDate":null,"ReasonForLeaving":null,"SENProvision":null,"FSMEligible":0,"FsmEndDate":null,"UniformAllowance":0,"PupilPremium":0,"YSSA":null,"EAL":1,"FSMEver6":0,"Gifted":0,"ServiceChild":"0","ServiceChildSource":null,"InLeaCare":0,"LeaCareAuthority":null,"EverInCare":0,"IsYoungCarer":0,"AsylumStatus":null,"ReligionCode":"MU","Religion":"Muslim","EthnicityCode":"ABAN","Ethnicity":"Bangladeshi","EthnicitySource":"P","HomeLanguage":null,"HomeLanguageCode":null,"FirstLanguage":"Bengali","FirstLanguageCode":"BNG","FirstLanguageSource":null,"EnglishProficiencyLevel":"Developing
+        competence","NationalIdentity":"Other","Nationality":"United Kingdom","ModeOfTravel":"Walk","IsTraveller":0,"TravellerSource":null,"ParentalSalutation":"Mr
+        and Mrs Potter","AddressBlock":"7 Hill Rise\nKempston\nBedford\nMK42 7DJ\nUnited
+        Kingdom","HouseNo":"7","HouseName":null,"Apartment":null,"Street":"Hill Rise","District":"Kempston","TownOrCity":"Bedford","County":null,"PostCode":"MK42
+        7DJ","Country":"United Kingdom","StudentStatus":"OnRoll","QuickNote":null,"LastUpdated":"2018-06-20T02:23:08.896","RowHash":"DFAC5FD22DE0BE03C9CAEAB50E05BC2D5BF9772C"}],"StudentSiblings":[],"meta":[{"Id":1,"MIS":"simsnet","Version":"4","DateTime":"2018-06-20T02:14:47.085"}],"__pagination__":[{"PageSize":2,"PageNumber":1,"PageCount":2,"RowCount":4,"NextPage":"?page=2&pageSize=2"}]}'
+    http_version: 
+  recorded_at: Wed, 20 Jun 2018 10:20:38 GMT
+- request:
+    method: get
+    uri: https://xporter.groupcall.com/api/v1/School/3281101/Students/?page=2&pageSize=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Idaas ere5ZM/8505ZHDe0X3X/M8TAxvOyW6vW20QxQoN6QNKANTTjGTfNtBSyRQskCFZ+c2aTtktAhJPvn0jUFhYvGULwwZwOyj6D5rBRRXfL938Ld/f5323TroX71PPxemrHTGn3tUQb3T17/MQvQE75QvZq5CZc819eU2P9FlxQcSFVHoiYN/5CmWIICol0sdM71eUSNsfLA0j8P2HsdZM1z02N7x2cGWWft3wQmD/5wJj8/K2ha7Ye4VHEoX8pCR7cM9ASYtNFyhxtpsQaZR/Iq/YTIxCYQtAPI5HXv1u3q6bMNdR/mGZpobZkESMqTF4zpjVna5IX2VjLdxZDblTeVd32LRLUQPvJp9ZKogwiSv6/7tXfFF61+2cf49v5eK2VTtmI656Rhy+SwIUZuHOCxsF4cF3V4Yyxkbh2LICBMzpIu9HwgC7rv799jT7/4db2ToeOsh7nlLitg+98f/hGiWJBv/2qzoat3E/v6Wd2b4tKfFBYe9w1dtw+8bCHUJ+EhFaWX0i+/Z0IsoHc/em8gDrXQIBGxcuSXYzdAJJv+GXb2aQ8Ep1ZqO88BNvbP+25FdjTrG9acxY4ZxeKCdZEaphOXqAFfYtQOBHczEEl62MV7nDj2PSa9wof23hh9ApiUhLkuVq5A/CIQOboZl5gug==
+      Content-Type:
+      - application/json
+      User-Agent:
+      - TeamSatchel XoD Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1145'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Request-Context:
+      - appId=cid-v1:f307af71-b1af-4236-afd6-f49db97fd1fc
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Security-Policy:
+      - frame-ancestors 'self';  script-src 'self' 'unsafe-inline' *.google-analytics.com  az416426.vo.msecnd.net
+        ajax.aspnetcdn.com dc.services.visualstudio.com; style-src 'self' 'unsafe-inline'
+        ;
+      Date:
+      - Wed, 20 Jun 2018 10:26:19 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Students":[{"Id":"3221","XID":"x6MZPNC","ExternalId":"39b81c5a-d8eb-4e36-a027-3594819b6190","IdaasId":"PL-3221","Forename":"Hermione","Surname":"Potter","DisplayName":"Hermione
+        Potter","AdmissionNo":"001337","Gender":"F","RegGroupId":"180","RegGroup":"3TO","YearGroupId":"29","YearGroup":"Year  3","HouseGroupId":null,"HouseGroup":null,"WorkEmail":null,"IdaasEmail":null,"DateofBirth":"2009-11-20","UniqueLearnerNumber":null,"MiddleName":null,"EnrolmentStatus":"C","Boarder":1,"LegalForename":"Hermione","LegalSurname":"Potter","EntryDate":"2013-09-01","LeavingDate":null,"Destination":null,"DestinationStartDate":null,"ReasonForLeaving":null,"SENProvision":null,"FSMEligible":0,"FsmEndDate":null,"UniformAllowance":0,"PupilPremium":0,"YSSA":null,"EAL":1,"FSMEver6":0,"Gifted":0,"ServiceChild":"0","ServiceChildSource":null,"InLeaCare":0,"LeaCareAuthority":null,"EverInCare":0,"IsYoungCarer":0,"AsylumStatus":null,"ReligionCode":"MU","Religion":"Muslim","EthnicityCode":"ABAN","Ethnicity":"Bangladeshi","EthnicitySource":"P","HomeLanguage":null,"HomeLanguageCode":null,"FirstLanguage":"Bengali","FirstLanguageCode":"BNG","FirstLanguageSource":null,"EnglishProficiencyLevel":"Developing
+        competence","NationalIdentity":"Other","Nationality":"United Kingdom","ModeOfTravel":"Walk","IsTraveller":0,"TravellerSource":null,"ParentalSalutation":"Mr
+        and Mrs Potter","AddressBlock":"7 Hill Rise\nKempston\nBedford\nMK42 7DJ\nUnited
+        Kingdom","HouseNo":"7","HouseName":null,"Apartment":null,"Street":"Hill Rise","District":"Kempston","TownOrCity":"Bedford","County":null,"PostCode":"MK42
+        7DJ","Country":"United Kingdom","StudentStatus":"OnRoll","QuickNote":null,"LastUpdated":"2018-06-20T02:23:08.896","RowHash":"E706C1F01B224858ABBB9ED06A96D9B668278CFE"},{"Id":"3920","XID":"xTEVIU3","ExternalId":"e2fcd6cc-3c3a-4bc6-a791-9fa1dd137df1","IdaasId":"PL-3920","Forename":"Draco","Surname":"Potter","DisplayName":"Draco
+        Potter","AdmissionNo":"001582","Gender":"M","RegGroupId":"186","RegGroup":"AM","YearGroupId":"33","YearGroup":"Year  N2","HouseGroupId":null,"HouseGroup":null,"WorkEmail":null,"IdaasEmail":null,"DateofBirth":"2013-12-17","UniqueLearnerNumber":null,"MiddleName":null,"EnrolmentStatus":"C","Boarder":1,"LegalForename":"Draco","LegalSurname":"Potter","EntryDate":"2016-09-01","LeavingDate":null,"Destination":null,"DestinationStartDate":null,"ReasonForLeaving":null,"SENProvision":null,"FSMEligible":0,"FsmEndDate":null,"UniformAllowance":0,"PupilPremium":0,"YSSA":null,"EAL":1,"FSMEver6":0,"Gifted":0,"ServiceChild":"0","ServiceChildSource":null,"InLeaCare":0,"LeaCareAuthority":null,"EverInCare":0,"IsYoungCarer":0,"AsylumStatus":null,"ReligionCode":"MU","Religion":"Muslim","EthnicityCode":"ABAN","Ethnicity":"Bangladeshi","EthnicitySource":"P","HomeLanguage":null,"HomeLanguageCode":null,"FirstLanguage":"Bengali","FirstLanguageCode":"BNG","FirstLanguageSource":"P","EnglishProficiencyLevel":"Developing
+        competence","NationalIdentity":"British","Nationality":"United Kingdom","ModeOfTravel":"Walk","IsTraveller":0,"TravellerSource":null,"ParentalSalutation":"Mr
+        and Mrs Potter","AddressBlock":"7 Hill Rise\nKempston\nBedford\nMK42 7DJ\nUnited
+        Kingdom","HouseNo":"7","HouseName":null,"Apartment":null,"Street":"Hill Rise","District":"Kempston","TownOrCity":"Bedford","County":null,"PostCode":"MK42
+        7DJ","Country":"United Kingdom","StudentStatus":"OnRoll","QuickNote":null,"LastUpdated":"2018-06-17T02:29:25.979","RowHash":"70C43D9329E9CA2A0D260ECB60C97696DBDCC977"}],"StudentSiblings":[],"meta":[],"__pagination__":[{"PageSize":2,"PageNumber":2,"PageCount":2,"RowCount":4,"NextPage":"?page=3&pageSize=2"}]}'
+    http_version:
+  recorded_at: Wed, 20 Jun 2018 10:26:19 GMT
+- request:
+    method: get
+    uri: https://xporter.groupcall.com/api/v1/School/3281101/Students/?changedRows=0414025e3f87151229b8964169a480e5&pageSize=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Idaas ere5ZM/8505ZHDe0X3X/M8TAxvOyW6vW20QxQoN6QNKANTTjGTfNtBSyRQskCFZ+c2aTtktAhJPvn0jUFhYvGULwwZwOyj6D5rBRRXfL938Ld/f5323TroX71PPxemrHTGn3tUQb3T17/MQvQE75QvZq5CZc819eU2P9FlxQcSFVHoiYN/5CmWIICol0sdM71eUSNsfLA0j8P2HsdZM1z02N7x2cGWWft3wQmD/5wJj8/K2ha7Ye4VHEoX8pCR7cM9ASYtNFyhxtpsQaZR/Iq/YTIxCYQtAPI5HXv1u3q6bMNdR/mGZpobZkESMqTF4zpjVna5IX2VjLdxZDblTeVd32LRLUQPvJp9ZKogwiSv6/7tXfFF61+2cf49v5eK2VTtmI656Rhy+SwIUZuHOCxsF4cF3V4Yyxkbh2LICBMzpIu9HwgC7rv799jT7/4db2ToeOsh7nlLitg+98f/hGiWJBv/2qzoat3E/v6Wd2b4tKfFBYe9w1dtw+8bCHUJ+EhFaWX0i+/Z0IsoHc/em8gDrXQIBGxcuSXYzdAJJv+GXb2aQ8Ep1ZqO88BNvbP+25FdjTrG9acxY4ZxeKCdZEaphOXqAFfYtQOBHczEEl62MV7nDj2PSa9wof23hh9ApiUhLkuVq5A/CIQOboZl5gug==
+      Content-Type:
+      - application/json
+      User-Agent:
+      - TeamSatchel XoD Client
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1145'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Request-Context:
+      - appId=cid-v1:f307af71-b1af-4236-afd6-f49db97fd1fc
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Referrer-Policy:
+      - no-referrer-when-downgrade
+      X-Content-Type-Options:
+      - nosniff
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Security-Policy:
+      - frame-ancestors 'self';  script-src 'self' 'unsafe-inline' *.google-analytics.com  az416426.vo.msecnd.net
+        ajax.aspnetcdn.com dc.services.visualstudio.com; style-src 'self' 'unsafe-inline'
+        ;
+      Date:
+      - Wed, 20 Jun 2018 10:26:19 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"Students":[{"Id":"3116"},{"Id":"3217"}],"StudentSiblings":[],"meta":[],"Students_deleted": [{"Id":"3221"},{"Id":"3920"}],"StudentSiblings_deleted": [],"__changedRows__": [{"SnapshotDate": "2018-07-31T14:20:23.6525221Z","SnapshotRP": "relying-party.com","PreviousChangedRows": "*","RequestedChangedRows": "0414025e3f87151229b8964169a480e5","NextChangedRows": "0414025e3f87151229b8964169a480e5","NextUrl": "?changedRows=0414025e3f87151229b8964169a480e5&page=1&pageSize=2"}]}'
+    http_version:
+  recorded_at: Wed, 20 Jun 2018 10:26:19 GMT
+recorded_with: VCR 4.0.0
