@@ -82,7 +82,7 @@ client.groups.fetch #=> returns json response
 client.groups(page_size: 100).fetch { |endpoint| } #=> fetches page by page and passes endpoint object to a block
 client.groups.each { |group| } #=> returns each group json to a block
 client.groups.first #=> returns first group json
-
+client.groups[:__pagination__] #=> returns arbitrary data from json by key
 ```
 
 ## Exceptions handling

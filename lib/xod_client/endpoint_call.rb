@@ -66,6 +66,10 @@ module XodClient
       @json.dig(:__changed_rows__, 0, :next_changed_rows)
     end
 
+    def [](key)
+      fetch[key]
+    end
+
     private
 
     def process_xod_response(res)
