@@ -15,13 +15,12 @@ Gem::Specification.new do |spec|
   spec.executables   = %w(console)
   spec.require_paths = %w(lib)
 
-  spec.add_development_dependency 'bundler', '~> 1'
   spec.add_development_dependency 'rake', '>= 10', '< 13'
   spec.add_development_dependency 'rspec', '~> 3'
   spec.add_development_dependency 'vcr', '~> 4'
   spec.add_development_dependency 'webmock', '~> 3'
   spec.add_development_dependency 'rubocop-rspec', '~> 1'
 
-  spec.add_dependency 'activesupport', '>= 4', '< 6'
-  spec.add_dependency 'faraday', '~> 0'
+  spec.add_dependency 'activesupport', '>= 4', '< 6.1'
+  spec.add_dependency 'faraday', '>= 0', '< 2'
 end
