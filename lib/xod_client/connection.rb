@@ -32,7 +32,7 @@ module XodClient
       endpoint_name ||= params.delete(:endpoint_name) || raise(ArgumentError, 'Endpoint name should be provided')
       ensure_token
 
-      EndpointCall.new(self, endpoint_name, params)
+      EndpointCall.new(self, endpoint_name, **params)
     end
 
     def ensure_token

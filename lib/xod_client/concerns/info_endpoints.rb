@@ -15,7 +15,7 @@ module XodClient
 
     # params: tracking_id, starting_at, take
     def logs(**params)
-      endpoint(:logs, params)
+      endpoint(:logs, **params)
     end
 
     def usage

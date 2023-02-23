@@ -6,7 +6,7 @@ require 'xod_client/version'
 module XodClient
 
   def self.init(*args, **options)
-    Connection.new(*args, options)
+    Connection.new(*args, **options)
   end
 
 end

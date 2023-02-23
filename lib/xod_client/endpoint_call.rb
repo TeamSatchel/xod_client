@@ -9,6 +9,7 @@ module XodClient
       @endpoint_name = endpoint_name
       @data_transformer = data_transformer
       @params = params
+      @json = nil # more efficient and saves a warning
     end
 
     def fetch(force: false, **custom_params, &block)
@@ -37,7 +38,7 @@ module XodClient
     end
 
     def fetch!(**custom_params)
-      fetch(custom_params.merge(force: true))
+      fetch(**custom_params, force: true)
     end
 
     def each(&block)
