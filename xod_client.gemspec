@@ -21,6 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'webmock', '~> 3'
   spec.add_development_dependency 'rubocop-rspec', '~> 1'
 
-  spec.add_dependency 'activesupport', '>= 4', '< 6.2'
+  spec.add_dependency 'activesupport', '>= 4', '< 7.1'
   spec.add_dependency 'faraday', '>= 0', '< 2'
 end
